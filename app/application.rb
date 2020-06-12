@@ -6,7 +6,7 @@ class Application
     if time < 12 
       puts "Good Morning!"
   else
-     time.hour >12 
+     time  >12 
       puts "Good Afternoon!"
     resp.write "#{time.hour}\n"
     resp.finish
