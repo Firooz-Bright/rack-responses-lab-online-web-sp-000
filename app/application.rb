@@ -7,7 +7,7 @@ class Application
     if Time.new < time
      resp.write "Good Morning!"
    else
-      Time.new  >12 
+      Time.new  > time
      
     resp.write "Good Afternoon!"
    
