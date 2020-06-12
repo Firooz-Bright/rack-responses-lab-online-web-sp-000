@@ -11,5 +11,5 @@ class Application
     resp.write "#{time.hour}\n"
     resp.finish
   end
- 
+ end 
 end
