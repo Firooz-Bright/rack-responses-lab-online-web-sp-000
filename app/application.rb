@@ -2,7 +2,8 @@ class Application
  
   def call(env)
     resp = Rack::Response.new
-    resp.write "Hello, World"
+    time= 
+    resp.write 
     resp.finish
   end
  
