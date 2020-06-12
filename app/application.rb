@@ -8,7 +8,7 @@ class Application
   else
      time.hour   >12 
       puts "Good Afternoon!"
-    #resp.write "#{time}\n"
+   
     resp.finish
   end
  end 
